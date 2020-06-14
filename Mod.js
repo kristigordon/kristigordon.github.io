@@ -1,24 +1,27 @@
-var modal = document.getElementsByClassName('modal')[0];
-var button = document.getElementsByClassName('trigger')[0];
 
 
+// Get the modal
+var modal = document.getElementById("myModal");
 
-var open = function() {
-  modal.style.visibility = 'visible';
-  modal.style.marginTop = '50px';
-  modal.style.opacity = '1';
-  modal.style.radius = '5px';
- 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-};
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-button.addEventListener('click', open, false);
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
 
-var close = function() {
-  modal.style.visibility = 'hidden';
-  modal.style.marginTop = '-50px';
-  modal.style.opacity = '0';
-  button.style.opacity = '1';
-};
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-modal.addEventListener('click', close, false);
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
