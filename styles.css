@@ -1,15 +1,145 @@
 /* Universal */
 * {
-    background-color: #fff;
+    align-items: center;
+    background-color: #e6fff2;
     /* background-image: url(****); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
 
 }
-
+h2{
+    color: #00ffaa;
+}
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.4;
     color: #333;
 }
+.classcenter{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.profilePic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 15px solid #00ffaa;
+    
+}
+/* Items for centering image, bare in mind you will need to add a class to your image to make sure this is referenced 
+Make sure to add .className { somewhere in this sheet but you will need to following properties to make sure your image is 
+    centered as it was before. */
+
+    /******* Image properties ******/
+    .button {
+        font-family: "Montserrat", "Quicksand", sans-serif;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+      .button,
+      .social a {
+        transform-origin: center;
+        transition-duration: 100ms;
+      }
+      
+    .button {
+        background-color: #fff;
+        border-radius: 290486px;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        color: #00ffaa;
+        display: inline-block;
+        font-size: 0.8rem;
+        line-height: 1;
+        padding: 1.2em 2em;
+        text-shadow: none;
+        transition-property: box-shadow, transform;
+        user-select: none;
+        vertical-align: top;
+        white-space: nowrap;
+        will-change: box-shadow, transform;
+      }
+      .button:hover {
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+        transform: scale(1.02) translateY(-4px);
+      }
+      
+      .button:active {
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+          transform: scale(0.98) translateY(-2px);
+        }
+        .social {
+          display: flex;
+          margin-top: 1.5rem;
+        }
+        .social li {
+          height: 2rem;
+          margin-right: 0.5rem;
+          text-align: center;
+          width: 2rem;
+        }
+        .social a {
+          align-items: center;
+          display: flex;
+          font-size: 1.5rem;
+          height: 2rem;
+          justify-content: center;
+          opacity: 0.5;
+          transition-property: opacity, transform;
+          width: 2rem;
+      
+        }
+        .social a:hover {
+          opacity: 1;
+          transform: scale(1.25);
+        }
+        .social a:active {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+
+/* Modal Pop Up CSS */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
