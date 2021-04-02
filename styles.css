@@ -37,7 +37,7 @@ body {
     
 }
     .profilePic:hover {
-        border: 5px solid green;
+        border: 100px solid green;
     }
 
 /* Items for centering image, bare in mind you will need to add a class to your image to make sure this is referenced 
