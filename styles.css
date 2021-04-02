@@ -33,8 +33,13 @@ body {
     margin-right: auto;
     width: 40%;
     border: 15px solid #00ffaa;
+
     
 }
+    .profilePic:hover {
+        border: 5px solid green;
+    }
+
 /* Items for centering image, bare in mind you will need to add a class to your image to make sure this is referenced 
 Make sure to add .className { somewhere in this sheet but you will need to following properties to make sure your image is 
     centered as it was before. */
