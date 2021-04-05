@@ -86,15 +86,14 @@ background-color: red;
   padding-bottom: 40px;
 }
 #linkbutton-formating {
-  display: block;
+  justify-content: center;
+  text-align: center;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
 
-.linkbutton-formating {
-  margin: auto;
-}
     /******* Image properties ******/
     .button {
         font-family: "Montserrat", "Quicksand", sans-serif;
