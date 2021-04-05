@@ -19,21 +19,63 @@ body {
     background-color: white;
 }
 .classcenter{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    padding: 70px 0;
+    /* margin: auto;  */
+    width: 100%;
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* padding: 70px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.classcenter h3{
+background-color: red;
+}
+.classcenter h3:hover{
+  background-color: blue;
+  }
 .profilePic {
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    /*width: 40%;*/
     border: 15px solid #00ffaa;
-    
+}
+
+#first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.classcenter div:nth-child(2){
+  margin-left: -400px;
+}
+
+#squiggle-1 {
+  width: 800px;
+  height: auto;
+  /* transform: rotateZ(0deg); */
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#squiggle-2 {
+  width: 800px;
+  height: auto;
+  margin-right: 100px;
+  /* transform: rotateZ(0deg); */
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#squiggle-3 {
+  width: 800px;
+  height: auto;
+  /* transform: rotateZ(0deg); */
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
     /******* Image properties ******/
