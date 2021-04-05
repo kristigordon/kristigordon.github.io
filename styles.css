@@ -59,28 +59,42 @@ background-color: red;
   width: 800px;
   height: auto;
   /* transform: rotateZ(0deg); */
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 10px;
+  padding-right: 200px;
 }
 #squiggle-2 {
   width: 800px;
   height: auto;
   margin-right: 100px;
   /* transform: rotateZ(0deg); */
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 0px;
+  padding-right: 100px;
 }
 #squiggle-3 {
   width: 800px;
   height: auto;
   /* transform: rotateZ(0deg); */
   padding-left: 200px;
-  padding-right: 200px;
+  padding-right: 100px;
 }
-/* Items for centering image, bare in mind you will need to add a class to your image to make sure this is referenced 
-Make sure to add .className { somewhere in this sheet but you will need to following properties to make sure your image is 
-    centered as it was before. */
 
+#resumebutton-formating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#linkbutton-formating {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.linkbutton-formating {
+  margin: auto;
+}
     /******* Image properties ******/
     .button {
         font-family: "Montserrat", "Quicksand", sans-serif;
@@ -96,10 +110,10 @@ Make sure to add .className { somewhere in this sheet but you will need to follo
     .button {
         background-color: #fff;
         border-radius: 290486px;
-        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
         color: #00ffaa;
         display: inline-block;
-        font-size: 0.8rem;
+        font-size: 2.5rem;
         line-height: 1;
         padding: 1.2em 2em;
         text-shadow: none;
@@ -155,7 +169,7 @@ Make sure to add .className { somewhere in this sheet but you will need to follo
     font-size: 14px;
     line-height: 1.4;
     color: #333;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.3);
     display: inline-block;
     background-color: #e6fff2;
 }
