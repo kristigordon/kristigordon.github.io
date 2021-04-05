@@ -56,14 +56,14 @@ background-color: red;
 }
 
 #squiggle-1 {
-  width: 800px;
+  width: 500px;
   height: auto;
   /* transform: rotateZ(0deg); */
   padding-left: 10px;
   padding-right: 200px;
 }
 #squiggle-2 {
-  width: 800px;
+  width: 400px;
   height: auto;
   margin-right: 100px;
   /* transform: rotateZ(0deg); */
@@ -71,7 +71,7 @@ background-color: red;
   padding-right: 100px;
 }
 #squiggle-3 {
-  width: 800px;
+  width: 500px;
   height: auto;
   /* transform: rotateZ(0deg); */
   padding-left: 200px;
@@ -96,9 +96,10 @@ background-color: red;
 
     /******* Image properties ******/
     .button {
-        font-family: "Montserrat", "Quicksand", sans-serif;
+        font-family: "Roboto", "Quicksand", sans-serif;
         letter-spacing: 0.3em;
         text-transform: uppercase;
+        font-weight: 400;
       }
       .button,
       .social a {
@@ -107,12 +108,12 @@ background-color: red;
       }
       
     .button {
-        background-color: #fff;
+        background-color: #8febad;
         border-radius: 290486px;
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-        color: #00ffaa;
+        color: #000000;
         display: inline-block;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         line-height: 1;
         padding: 1.2em 2em;
         text-shadow: none;
@@ -164,7 +165,7 @@ background-color: red;
         /* MODAL */
  .modal {
     color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     line-height: 1.4;
     color: #333;
