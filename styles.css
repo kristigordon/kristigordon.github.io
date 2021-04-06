@@ -93,6 +93,35 @@ background-color: red;
   margin-right: auto;
   width: 40%;
 }
+.wargame { width:100%;}
+.warelements {float:left; padding:10px;}
+
+/* #wargif {
+  float: left;
+  position: absolute;
+  display: inline;
+  width: 50px;
+  bottom: 0;
+  right: 0;
+}
+
+#warumlpng {
+  bottom: 0;
+  display: inline;
+  left: 0;
+  position: absolute;
+}
+
+#wargame {
+  height: 58px;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+}
+
+#matplotlib {
+
+} */
 
     /******* Image properties ******/
     .button {
